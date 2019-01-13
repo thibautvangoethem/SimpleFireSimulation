@@ -152,9 +152,10 @@ int main() {
             sprite.setTexture(texture, true);
             window.draw(sprite);
             gameclock.restart();
+            window.display();
         }
 
-        window.display();
+
     }
 
     return 0;
